@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="resume">
+        <h1>Abdul Haseeb</h1>
+        <img src="src/Haseeb.jpg" alt="Abdul Haseeb" class="profile-picture">
+        <p>Professional Goals: Seeking a dynamic, challenging career within an organization to contribute positively, enhance professional knowledge, and develop interpersonal skills for mutual benefit.</p>
+
+        <div class="columns">
+            <div class="column">
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <button onclick="toggleSection('contact-details')">Hide</button>
+                    <div id="contact-details" class="content">
+                        <p>Mobile: +92 3182554954</p>
+                        <p>Email: ah7860939@gmail.com</p>
+                    </div>
+                </section>
+
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <button onclick="toggleSection('skills-details')">Hide</button>
+                    <div id="skills-details" class="content">
+                        <ul>
+                            <li>C, C++, Java, JavaScript, Python, ReactJS, NodeJS, TypeScript (Basic)</li>
+                            <li>HTML, CSS, MySQL, Java (Swing by NetBeans IDE)</li>
+                            <li>MATLAB, Office Automation, NextJs (Beginner)</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="work-history">
+                    <h2>Work History</h2>
+                    <button onclick="toggleSection('work-details')">Hide</button>
+                    <div id="work-details" class="content">
+                        <p>IT Enablers Global (Pvt) Ltd - Trainee Developer (2024-07 - Current)</p>
+                        <p>Freelance - Java, JavaScript, HTML and CSS (2022-12 - 2023-11)</p>
+                        <p>Internship at Brand Soft Solutions - SEO (2021-10 - 2022-01)</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="column">
+                <section id="academic-projects">
+                    <h2>Academic Projects</h2>
+                    <button onclick="toggleSection('projects-details')">Hide</button>
+                    <div id="projects-details" class="content">
+                        <p>Charity System using Blockchain (Final Year Project) - Decentralized web app for fundraising</p>
+                        <p>Health Metrics - Online Healthcare System</p>
+                        <p>Full Stack Food Delivery System</p>
+                    </div>
+                </section>
+
+                <section id="courses">
+                    <h2>Courses</h2>
+                    <button onclick="toggleSection('courses-details')">Hide</button>
+                    <div id="courses-details" class="content">
+                        <ul>
+                            <li>Object-Oriented Programming, Data Structures, Software Engineering</li>
+                            <li>Database Management Systems, Artificial Intelligence</li>
+                            <li>Cryptography, Network Security, Computer Communication</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="academic-history">
+                    <h2>Academic History</h2>
+                    <button onclick="toggleSection('history-details')">Hide</button>
+                    <div id="history-details" class="content">
+                        <p>BS in Computer Engineering - Sir Syed University (2020-2024), CGPA: 3.73/4.0</p>
+                        <p>Intermediate - Adamjee Govt. Science College (2017-2019), Grade: 68.7%</p>
+                        <p>Matriculation - Usman Public School System (2017), Grade: 88.7%</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
